@@ -89,3 +89,54 @@ form .formulario__input:focus {
     color: var(--colorBranco);
     border: 1px solid var(--colorBranco);
 }
+
+@media screen and (max-width: 1024px) {
+    form {
+        width: 50%;
+    }
+
+    .formulario__resultado {
+        width: 50%;
+    }
+
+    .formulario__resultado__imc {
+        font-size: 1.5rem;
+    }
+
+    .formulario__botao__reset {
+        font-size: 1.5rem;
+    }
+
+    .formulario__paragrafo {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+
+    .formulario__resultado {
+        width: 80%;
+    }
+
+    .formulario__resultado__imc {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    form {
+        width: 100%;
+    }
+
+    .formulario__resultado {
+        width: 100%;
+    }
+
+    .formulario__resultado__imc {
+        font-size: 1.5rem;
+    }
+}
+
